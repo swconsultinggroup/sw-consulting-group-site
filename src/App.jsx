@@ -5,7 +5,7 @@ export default function App() {
     <div className="min-h-screen bg-[#f3f2ef] text-[#1a1a1a] antialiased">
       {/* Header with Logo */}
       <header className="flex justify-between items-center px-12 py-6 bg-[#f0ebe4] shadow-sm border-b border-[#d6cfc3]">
-        <img src="/sw-piping-logo.png" alt="SW Consulting Group Logo" className="h-16 w-auto" />
+        <img src="/sw-piping-logo.png?v=6" alt="SW Consulting Group Logo" className="h-16 w-auto" />
         <nav className="space-x-6 text-lg font-medium text-[#4a4a4a]">
           <a href="#about" className="hover:text-[#a2611a] transition">About</a>
           <a href="#team" className="hover:text-[#a2611a] transition">Team</a>
@@ -16,7 +16,7 @@ export default function App() {
       {/* Hero */}
       <section className="relative text-center py-36 bg-[#f9f7f3] overflow-hidden">
         <img
-          src="/factory-line-bright.jpg"
+          src="/factory-line-bright.jpg?v=6"
           alt="Food Manufacturing Line"
           className="absolute inset-0 w-full h-full object-cover opacity-25"
         />
@@ -51,7 +51,7 @@ export default function App() {
           </p>
         </div>
         <div>
-          <img src="/industrial-oven-light.jpg" alt="Industrial Oven" className="rounded-2xl shadow-lg mb-8" />
+          <img src="/industrial-oven-light.jpg?v=6" alt="Industrial Oven" className="rounded-2xl shadow-lg mb-8" />
           <div className="rounded-2xl bg-white border border-gray-300 shadow-lg p-6">
             <h3 className="text-2xl font-semibold text-[#a2611a] mb-4">Our Expertise</h3>
             <ul className="list-disc ml-5 text-gray-700 space-y-2">
@@ -67,7 +67,7 @@ export default function App() {
       {/* Team */}
       <section id="team" className="bg-[#f1efea] py-24 relative overflow-hidden">
         <img
-          src="/mixing-line-bright.jpg"
+          src="/mixing-line-bright.jpg?v=6"
           alt="Mixing Line Background"
           className="absolute inset-0 w-full h-full object-cover opacity-10"
         />
@@ -108,7 +108,7 @@ export default function App() {
       {/* CTA + Contact Form */}
       <section id="contact" className="py-28 bg-gradient-to-r from-[#f9f7f3] to-[#ede8e0] text-center relative overflow-hidden">
         <img
-          src="/packaging-line-bright.jpg"
+          src="/packaging-line-bright.jpg?v=6"
           alt="Packaging Line"
           className="absolute inset-0 w-full h-full object-cover opacity-15"
         />
