@@ -1,0 +1,22 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.processing]
+  skip_processing = false
+
+# Force Netlify Forms detection ON
+[build.processing.forms]
+  enabled = true
+
+# Optional: speed up post-processing (we already minify via Vite)
+[build.processing.css]
+  bundle = false
+  minify = false
+
+[build.processing.js]
+  bundle = false
+  minify = false
+
+[build.processing.images]
+  compress = false
