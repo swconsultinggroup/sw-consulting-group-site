@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Register Form</title></head>
+<body>
+  <!-- Static form (hidden) so Netlify can detect "contact" at build time -->
+  <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+    <input type="text" name="name" />
+    <input type="email" name="email" />
+    <input type="text" name="company" />
+    <input type="text" name="phone" />
+    <textarea name="message"></textarea>
+  </form>
+</body>
+</html>
